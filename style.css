@@ -1,3 +1,4 @@
+
 nav{
     background-color: lightcoral;
     border: 2px solid black;
@@ -5,19 +6,23 @@ nav{
     border-radius: 20px;
     box-shadow: blue;
 }
-.logo{
-    margin: 20px;
-    padding: 5px;
+.logo{margin: 2px;
     border: 2px solid rebeccapurple;
     border-radius: 20px;
     border: none;
     display: inline-block;
 }
 .navigation{
-    /* display: inline-block; */
-    display: block;
+    float: right;
+
 }
 li{
     display: inline-block;
+    margin: 20px;
     
+}
+li:hover{
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
 }
