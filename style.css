@@ -1,4 +1,23 @@
 nav{
+    background-color: lightcoral;
     border: 2px solid black;
+    border: none;
     border-radius: 20px;
+    box-shadow: blue;
+}
+.logo{
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid rebeccapurple;
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+}
+.navigation{
+    /* display: inline-block; */
+    display: block;
+}
+li{
+    display: inline-block;
+    
 }
